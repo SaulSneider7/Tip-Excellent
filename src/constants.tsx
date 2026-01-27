@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 export const MISSION = "En TIP EXCELLENT PATH S.A nos enfocamos en empoderar a nuestros colaboradores para permitirles que proporcionen a nuestros clientes la mejor experiencia de nuestros servicios ofreciendo soluciones innovadoras en cada uno de sus proyectos.";
 
 export const VISION = "TIP EXCELLENT PATH S.A será líder de servicios en ingeniería y consultoría en el mundo a través de la calidad elaborados con una pasión por la innovación orientadas al cliente enfocados en la capacitación, estaremos despejado a la diversidad y proveeremos oportunidades de crecimiento para nuestros asociados y colaboradores, guiaremos nuestros servicios a la industria diversa en la aplicación de las tecnologías apropiadas operando con los más altos niveles de ética y observancia a través de un enfoque multidisciplinario, creando valor para nuestros accionistas con resultados operacionales positivos con responsabilidad individual y corporativo salvaguardando el medio ambiente y las comunidades donde operamos.";
