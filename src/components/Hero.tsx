@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section id="home" className="relative h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80" 
+          src="./hero.webp" 
           alt="Mining Core Operation" 
           className="w-full h-full object-cover grayscale-[30%] brightness-[0.35]"
         />
