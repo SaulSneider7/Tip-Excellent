@@ -139,3 +139,177 @@ export const CORE_VALUES_SHORT = [
     icon: <i className="fa-solid fa-star text-xl text-amber-600"></i>
   }
 ];
+
+export const GALLERY_ITEMS = [
+  {
+    id: 1,
+    title: 'Operación Raise Boring',
+    type: 'image',
+    category: 'BLASTING HOLE DRILLING',
+    url: './blasting_hole.webp'
+  },
+  {
+    id: 2,
+    title: 'Perforación y la Voladura',
+    type: 'image',
+    category: 'BLASTING HOLE DRILLING',
+    url: './hdd.webp'
+  },
+  {
+    id: 3,
+    title: 'Taladros Largos en Tajo',
+    type: 'video',
+    category: 'SLOT RAISE',
+    url: './slot_rise_portada.webp',
+    videoUrl: './slot_rise_video.mp4' // Placeholder video
+  },
+  {
+    id: 4,
+    title: 'Perforación de taladros largos',
+    type: 'image',
+    category: 'LONG DRILLS',
+    url: './long_drills.webp'
+  },
+  {
+    id: 5,
+    title: '',
+    type: 'image',
+    category: 'LONG DRILLS',
+    url: './long_drills2.webp'
+  },
+  {
+    id: 6,
+    title: 'Video',
+    type: 'video',
+    category: 'LONG DRILLS',
+    url: './logo_portada_video.webp',
+    videoUrl: './long_drills_video.mp4' // Placeholder video
+  },
+  {
+    id: 7,
+    title: '',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './raise_boring.webp'
+  },
+  {
+    id: 8,
+    title: '',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './raise_boring2.webp'
+  },
+  {
+    id: 9,
+    title: 'Sistema de Excavación',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sistema_excavacion.webp'
+  },
+  {
+    id: 10,
+    title: 'Sistema Evacuación',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './evacuacion.webp'
+  },
+  {
+    id: 11,
+    title: 'Sistema Tradicional',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sistema_tradicional.webp'
+  },
+  {
+    id: 12,
+    title: '',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './raise_boring_historia.webp'
+  },
+  {
+    id: 13,
+    title: 'Raise Boring Ciego',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './Raise_boring_ciego.webp'
+  },
+  {
+    id: 14,
+    title: 'Down Boring',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './Down_Boring.webp'
+  },
+  {
+    id: 15,
+    title: 'Sistema Convencional',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sistema_convensional.webp'
+  },
+  {
+    id: 16,
+    title: 'Sistema Horizontal',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sistema_horizontal.webp'
+  },
+  {
+    id: 17,
+    title: 'Sondeo Piloto',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sondeo_piloto.webp'
+  },
+  {
+    id: 18,
+    title: 'Sondeo Piloto',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sondeo_piloto_2.webp'
+  },
+  {
+    id: 19,
+    title: 'Sondeo Piloto',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './sondeo_piloto_3.webp'
+  },
+  {
+    id: 20,
+    title: 'Cortadora de Botones',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './cortador_botones.webp'
+  },
+  {
+    id: 21,
+    title: 'Principio de Destrucción',
+    type: 'image',
+    category: 'RAISE BORING DRILLING',
+    url: './principio_destruccion.webp'
+  },
+  {
+    id: 22,
+    title: 'Video',
+    type: 'video',
+    category: 'RAISE BORING DRILLING',
+    url: './raise_boring_portada.webp',
+    videoUrl: './raise_boring_video.mp4'
+  },
+  {
+    id: 23,
+    title: '',
+    type: 'image',
+    category: 'SLOT RAISE',
+    url: './slot_rise.webp'
+  },
+  {
+    id: 24,
+    title: 'Chimenea Slot ',
+    type: 'image',
+    category: 'SLOT RAISE',
+    url: './slot_raise.webp'
+  }
+];

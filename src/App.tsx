@@ -6,6 +6,7 @@ import TrustBanner from './components/TrustBanner';
 import About from './components/About';
 import Services from './components/Services';
 import Consulting from './components/Consulting';
+import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <About />
       <Services />
       <Consulting />
+      <Gallery />
       <Contact />
       <Footer />
     </div>

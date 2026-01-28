@@ -35,7 +35,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="rounded-[2.5rem] overflow-hidden shadow-2xl relative z-10">
               <img 
-                src="./ing_tecnica.webp" 
+                src="./nuestra_trayectoria.webp" 
                 alt="Ingeniería técnica especializada" 
                 className="w-full h-[500px] object-cover"
               />

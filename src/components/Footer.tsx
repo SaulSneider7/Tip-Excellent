@@ -9,13 +9,14 @@ const Footer: React.FC = () => {
     { name: 'Nosotros', href: '#about' },
     { name: 'Servicios', href: '#services' },
     { name: 'Consultoría', href: '#consulting' },
+    { name: 'Galería', href: '#gallery' },
     { name: 'Contacto', href: '#contact' },
   ];
 
   const coreServices = [
     'Raise Boring Drilling',
     'Slot Raise',
-    'HDD – Perforación Horizontal',
+    'HDD - Perforación Horizontal',
     'Consultoría Técnica',
     'Alquiler de Maquinaria'
   ];
@@ -27,29 +28,41 @@ const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
+
           {/* Column 1: Brand Identity */}
           <div className="space-y-6">
-            <div className="flex items-center space-x-2">
-              <i className="fa-solid fa-bore-hole text-3xl text-amber-500"></i>
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tighter leading-none">TIP EXCELLENT</span>
-                <span className="text-[10px] text-amber-500 font-bold uppercase tracking-widest">Path S.A.</span>
-              </div>
+            {/* Logo */}
+            <div>
+              <img
+                src="/logo_tip_excellent.png"
+                alt="TIP Excellent Path S.A"
+                className="h-24 sm:h-20 w-auto object-contain"
+              />
             </div>
+
+            {/* Description */}
             <p className="text-slate-400 text-sm leading-relaxed text-justify">
-              Empresa líder en perforación mecanizada y servicios especializados para minería e industria. 
+              Empresa líder en perforación mecanizada y servicios especializados para minería e industria.
               Combinamos tecnología de vanguardia con más de 15 años de experiencia operativa.
             </p>
+
+            {/* Social / Contact */}
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-amber-600 hover:text-white transition-all duration-300">
+              <a
+                href="#"
+                className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-amber-600 hover:text-white transition-all duration-300"
+              >
                 <i className="fa-brands fa-linkedin-in text-lg"></i>
               </a>
-              <a href="mailto:servicios@tip-excellent.com" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-amber-600 hover:text-white transition-all duration-300">
+              <a
+                href="mailto:servicios@tip-excellent.com"
+                className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-amber-600 hover:text-white transition-all duration-300"
+              >
                 <i className="fa-solid fa-envelope text-lg"></i>
               </a>
             </div>
           </div>
+
 
           {/* Column 2: Quick Navigation */}
           <div>
@@ -111,7 +124,7 @@ const Footer: React.FC = () => {
               Desarrollado por <a href="https://tu-sitioweb.com" target="_blank" rel="noopener noreferrer" className="text-amber-500/80 hover:text-amber-500 transition-colors font-bold">tu-sitioweb.com</a>
             </div>
           </div>
-          
+
           <div className="flex space-x-8 uppercase">
             <a href="#" className="hover:text-amber-500 transition-colors">Términos</a>
             <a href="#" className="hover:text-amber-500 transition-colors">Privacidad</a>

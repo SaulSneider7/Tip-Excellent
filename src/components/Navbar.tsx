@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
     { name: 'Nosotros', href: '#about' },
     { name: 'Servicios', href: '#services' },
     { name: 'Consultoría', href: '#consulting' },
+    { name: 'Galería', href: '#gallery' },
     { name: 'Contacto', href: '#contact' },
   ];
 
@@ -25,26 +26,37 @@ const Navbar: React.FC = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <i className={`fa-solid fa-bore-hole text-3xl ${isScrolled ? 'text-amber-600' : 'text-amber-500'}`}></i>
+          <div className="flex items-center space-x-3">
+            <img
+              src="/logo_tip_excellent.png"
+              alt="TIP Excellent Path S.A"
+              className="h-16 sm:h-14 md:h-12 w-auto object-contain"
+            />
+            
             <div className="flex flex-col">
-              <span className={`text-xl font-bold tracking-tighter leading-none ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
+              <span
+                className={`text-xl font-bold tracking-tighter leading-none ${isScrolled ? 'text-slate-900' : 'text-white'
+                  }`}
+              >
                 TIP EXCELLENT
               </span>
-              <span className={`text-[10px] font-medium tracking-[0.2em] uppercase ${isScrolled ? 'text-amber-600' : 'text-amber-400'}`}>
+              <span
+                className={`text-[10px] font-medium tracking-[0.2em] uppercase ${isScrolled ? 'text-amber-600' : 'text-amber-400'
+                  }`}
+              >
                 Path S.A.
               </span>
             </div>
           </div>
+
 
           <div className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-semibold uppercase tracking-wider transition-colors ${
-                  isScrolled ? 'text-slate-700 hover:text-amber-600' : 'text-slate-100 hover:text-amber-400'
-                }`}
+                className={`text-sm font-semibold uppercase tracking-wider transition-colors ${isScrolled ? 'text-slate-700 hover:text-amber-600' : 'text-slate-100 hover:text-amber-400'
+                  }`}
               >
                 {link.name}
               </a>
