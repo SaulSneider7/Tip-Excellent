@@ -1,0 +1,87 @@
+:root {
+    --amber-primary: #f59e0b;
+    --slate-deep: #0f172a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.font-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Efectos de Navegación */
+.nav-scrolled {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Gradient */
+.hero-overlay {
+    background: linear-gradient(75deg, rgba(15, 23, 42, 0.95) 30%, rgba(15, 23, 42, 0.2) 100%);
+}
+
+/* Gallery Transitions */
+.gallery-item img {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Custom Modal */
+#lightbox.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--slate-deep);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--amber-primary);
+    border-radius: 10px;
+}
